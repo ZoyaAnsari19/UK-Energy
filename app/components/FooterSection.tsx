@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Sun, Home, Calendar, Zap, Mail, ChevronRight, MessageCircle, Phone } from 'lucide-react';
+import { Sun, Home, Zap, Mail, ChevronRight, MessageCircle, Phone } from 'lucide-react';
 
 const FooterSection: React.FC = () => {
   const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; delay: number }>>([]);
@@ -23,7 +23,6 @@ const FooterSection: React.FC = () => {
   const navLinks = [
     { icon: Home, label: 'Home', href: '#home' },
     { icon: Sun, label: 'About', href: '#about' },
-    { icon: Calendar, label: 'Events', href: '#events' },
     { icon: Zap, label: 'Solar Services', href: '#services' },
     { icon: Mail, label: 'Contact', href: '#contact' }
   ];

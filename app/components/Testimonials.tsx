@@ -31,63 +31,83 @@ const TestimonialsComponent: React.FC = () => {
  const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: 'Sarah Mitchell',
-    location: 'London, UK',
+    name: 'Rajesh Patil',
+    location: 'Nashik, Maharashtra',
     rating: 5,
-    feedback: 'UK Energy transformed our home with solar panels. The installation was seamless, and we\'ve already seen a 70% reduction in electricity bills!',
+    feedback: 'UK Energy ne hamare ghar mein solar panels ka installation bahut professional tarike se kiya. Installation seamless thi aur abhi tak 65% electricity bills mein kami aa chuki hai!',
     date: 'November 2024',
-    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=RajeshPatil',
     role: 'Homeowner'
   },
   {
     id: 2,
-    name: 'Rajesh Kumar',
-    location: 'Delhi, India',
+    name: 'Priya Deshmukh',
+    location: 'Igatpuri, Maharashtra',
     rating: 5,
-    feedback: 'Attended the Solar Installation Workshop - absolutely brilliant! The instructors were knowledgeable, and the hands-on experience was invaluable.',
+    feedback: 'Maintenance team exceptional hai. Quick response time aur professional service. Hamara solar system 2 saal se bilkul perfect chal raha hai!',
     date: 'October 2024',
-    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Rajesh',
-    role: 'Workshop Participant'
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=PriyaDeshmukh',
+    role: 'Residential Client'
   },
   {
     id: 3,
-    name: 'Yuki Tanaka',
-    location: 'Tokyo, Japan',
+    name: 'Amit Jadhav',
+    location: 'Sinnar, Maharashtra',
     rating: 5,
-    feedback: 'The energy analytics platform has helped our business optimize consumption. We\'ve cut costs by 40% and reduced our carbon footprint significantly.',
+    feedback: 'Hamare office building ke liye EV charging setup professional aur efficient tha. Smart integration fantastic hai! Monthly electricity costs 50% kam ho gaye.',
     date: 'November 2024',
-    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Yuki',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=AmitJadhav',
     role: 'Business Owner'
   },
   {
     id: 4,
-    name: 'Emma Thompson',
-    location: 'Manchester, UK',
+    name: 'Anjali Kulkarni',
+    location: 'Satana, Maharashtra',
     rating: 5,
-    feedback: 'The maintenance team is exceptional. Quick response times and professional service. Our solar system has been running flawlessly for 2 years!',
+    feedback: 'Solar panel installation service bahut acchi thi. Team ne sab kuch time par complete kiya aur system abhi tak perfect chal raha hai. Highly recommended!',
     date: 'September 2024',
-    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Emma',
-    role: 'Residential Client'
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=AnjaliKulkarni',
+    role: 'Homeowner'
   },
   {
     id: 5,
-    name: 'Carlos Rodriguez',
-    location: 'Barcelona, Spain',
+    name: 'Vikram Gaikwad',
+    location: 'Malegaon, Maharashtra',
     rating: 5,
-    feedback: 'The Smart Grid Solutions course exceeded expectations. Now implementing these technologies in our renewable energy projects across Europe.',
+    feedback: 'Battery storage system installation ke baad, hamare electricity bills almost zero ho gaye. UK Energy ki service aur support dono excellent hai!',
     date: 'October 2024',
-    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Carlos',
-    role: 'Energy Engineer'
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=VikramGaikwad',
+    role: 'Residential Client'
   },
   {
     id: 6,
-    name: 'Priya Sharma',
-    location: 'Mumbai, India',
+    name: 'Kavita Pawar',
+    location: 'Dhule, Maharashtra',
     rating: 5,
-    feedback: 'UK Energy\'s EV charging setup for our office building was professional and efficient. The smart integration is fantastic!',
+    feedback: 'Solar installation se pehle detailed consultation mili. Installation team professional thi aur system ab 3 mahine se perfect chal raha hai. Great service!',
     date: 'November 2024',
-    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Priya',
-    role: 'Corporate Manager'
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=KavitaPawar',
+    role: 'Homeowner'
+  },
+  {
+    id: 7,
+    name: 'Rohit Shinde',
+    location: 'Jalgaon, Maharashtra',
+    rating: 5,
+    feedback: 'Factory ke liye commercial solar installation karvaya. System se 70% energy cost savings ho rahi hai. Maintenance service bhi timely aur efficient hai.',
+    date: 'October 2024',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=RohitShinde',
+    role: 'Business Owner'
+  },
+  {
+    id: 8,
+    name: 'Sneha More',
+    location: 'Nashik, Maharashtra',
+    rating: 5,
+    feedback: 'Residential solar system installation bahut smooth experience raha. Team knowledgeable thi aur sab kuch properly explain kiya. Bills mein 60% reduction!',
+    date: 'November 2024',
+    avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=SnehaMore',
+    role: 'Homeowner'
   },
 ];
 
@@ -198,7 +218,7 @@ const TestimonialsComponent: React.FC = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto font-light">
-            Real feedback from our customers and training participants
+            Real feedback from our customers
           </p>
         </div>
 
